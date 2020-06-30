@@ -13,6 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
 Route::get('/', function () {
-    return view('welcome');
+    return "Halaman Home";
+});
+
+Route::get('/register', function () {
+    return "OK Ini register";
+});
+
+Route::get('/welcome', function () {
+    return "OK ini halaman Welcome";
 });
