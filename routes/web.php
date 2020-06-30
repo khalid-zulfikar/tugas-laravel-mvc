@@ -18,13 +18,13 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', function () {
-    return "Halaman Home";
+    return view('home');
 });
 
 Route::get('/register', function () {
-    return "OK Ini register";
+    return view('register');
 });
 
 Route::get('/welcome', function () {
-    return "OK ini halaman Welcome";
+    return view('welcome2');
 });
