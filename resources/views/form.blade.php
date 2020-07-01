@@ -6,11 +6,12 @@
 <body>
 	<h1>Buat Account Baru!</h1>
 	<h3>Sign Up Form</h3>
-	<form action="welcome.html">
+	<form action="/biodata" method="POST">
+		@csrf 
 	  <p>First Name:</p>
-	  <input type="text" name="fname">
+	  <input type="text" name="first">
 	  <p>Last Name:</p>
-	  <input type="text" id="lname" name="lname">
+	  <input type="text" id="lname" name="last">
 	  <p>Gender:</p>
 	  <input type="radio" id="male" name="gender" value="male">
 	  <label for="male">Male</label><br>
